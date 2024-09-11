@@ -95,6 +95,10 @@ div a {
     border: 2px solid aqua;
     color: aqua;
     text-decoration: none;
-    
-    
+      
+}
+
+div img {
+    width: 20px;
+    border-radius: 50%;
 }
