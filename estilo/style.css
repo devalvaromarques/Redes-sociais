@@ -11,17 +11,13 @@
     height: 0px;
 }
 
-strong {
-    color: aqua;
+body, html {
+    width: 100vw;
+    height: 100vh;
 }
 
-header {
-    background-color: black;
-    color: white;
-    font-size: 0.8em;
-    padding: 1%;
-    padding-left: 70px;
-    
+strong {
+    color: aqua;
 }
 
 main {    
@@ -30,13 +26,14 @@ main {
     display: flex;
     align-items: center;
     position: absolute;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
 }
 
 section {
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    height: 540px;
 }
 
 section.apresentacao {
@@ -59,7 +56,7 @@ div {
 
 div h1 {    
     padding-top: 10vw;
-    font-size: 2.5vw;
+    font-size: 35px;
     
     
 }
@@ -70,35 +67,43 @@ div p {
     
 }
 
-div.foto {
-    background-color: black;
-    border-radius: 0px 10px 10px 0px;
-    width: 30vw;
-    height: 540px;
-    background-image: url(../imagens/tela-inicial.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
 div h2 {
     text-align: center;
     padding: 20px 0px 30px 0px;
     padding-bottom: 30px;
 }
 
-div a {
+div.botoes {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+div.botoes a {
+    display: flex;
     padding: 20px;
     border: 2px solid aqua;
     color: aqua;
-    text-decoration: none;
-      
+    text-decoration: none;    
+    font-size: 24px;
+    width: 140px;
+    
 }
 
 div img {
-    width: 20px;
+    width: 30px;
     border-radius: 50%;
+
+}
+
+div.foto {
+    background-color: rgb(253, 0, 241);
+    border-radius: 0px 10px 10px 0px;
+    width: 30vw;
+    height: 540px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
